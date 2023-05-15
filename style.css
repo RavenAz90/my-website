@@ -1,0 +1,102 @@
+:root {
+  --primary-color: rgb(108, 99, 255);
+  --secondary-color: rgb(76, 76, 76);
+  --shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --box-color: rgba(245, 242, 254);
+}
+
+h1 {
+  font-size: 96px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 48px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 24px;
+  color: var(--secondary-color);
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.header-home {
+  max-width: 800px;
+  text-align: center;
+  margin: 60px auto;
+  width: 100%;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.about-info {
+  background: var(--box-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 10px 10px;
+}
+.contact-link {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  color: white;
+  box-shadow: var(--shadow);
+}
+.about-link {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  box-shadow: var(--shadow);
+}
+.primary-button {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  color: white;
+  box-shadow: var(--shadow);
+}
+.home-paragraph {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+.about-header {
+  max-width: 800px;
+  text-align: center;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.about-intro {
+  margin: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+}
