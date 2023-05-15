@@ -21,7 +21,7 @@ h2 {
 h3 {
   font-size: 24px;
   color: var(--secondary-color);
-  margin: 0 auto;
+  margin: 10px auto;
   padding: 10px;
 }
 
@@ -115,10 +115,14 @@ h3 {
 
   h2 {
     font-size: 40px;
+    text-align: center;
   }
 
   h3 {
     font-size: 18px;
+  }
+  p {
+    text-align: center;
   }
 
   .primary-button {
