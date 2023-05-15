@@ -4,6 +4,9 @@
   --shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --box-color: rgba(245, 242, 254);
 }
+body {
+  box-sizing: border-box;
+}
 
 h1 {
   font-size: 96px;
@@ -71,6 +74,7 @@ h3 {
   color: white;
   box-shadow: var(--shadow);
 }
+
 .home-paragraph {
   font-size: 18px;
   line-height: 1.5;
@@ -99,4 +103,27 @@ h3 {
   font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
+}
+
+@media (max-width: 576px) {
+  body {
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .primary-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
